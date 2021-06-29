@@ -55,7 +55,12 @@ img3_fg = cv2.bitwise_and(img3, img3, mask=mask)
 dst = cv2.add(img1_bg, img3_fg)
 img1[0:rows,0:cols] = dst
 
-cv2.imshow('res', img1)
+# cv2.imshow('res', img1)
+# cv2.imshow('mask_inv', mask_inv)
+# cv2.imshow('img1_bg', img1_bg)
+# cv2.imshow('img3_fg', img3_fg)
+# cv2.imshow('dst', dst)
+
 
 
 
